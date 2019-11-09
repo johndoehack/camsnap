@@ -36,7 +36,7 @@ WHS="\033[1;77m"
 if [[ $EUID -ne 0 ]]
 then
    sleep 1
-   echo -e ""$RS"[-]"$WHS" This script must be run as root!"$CE"" 1>&2
+   echo -e ""$RS"["$CE"-"$RS"] This script must be run as root!"$CE"" 1>&2
    sleep 1
    exit
 fi
