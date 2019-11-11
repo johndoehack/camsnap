@@ -126,7 +126,7 @@ done
 
 server() {
 
-command -v ssh > /dev/null 2>&1 || { echo -e "\e[1;31m[\e[0m-\e[1;31m] Error, openssh is not installed!\e[0m"; exit; }
+command -v ssh > /dev/null 2>&1 || { echo -e "\e[1;31m[\e[0m-\e[1;31m] Error, ssh is not installed!\e[0m"; exit; }
 
 printf "\e[1;77m[\e[0m\e[1;93m+\e[0m\e[1;77m] Starting Serveo...\e[0m\n"
 
