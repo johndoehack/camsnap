@@ -41,7 +41,7 @@
     research tool, which allows people to take camera snapshots 
     in real-time remotely using generated malicious link. 
 
-# How to install CamSnap
+# How to install camsnap
 
     INFO: Camera Snapshot will be installed into /bin and 
     /usr/local/bin as /bin/camsnap and /usr/local/bin/camsnap!
@@ -52,7 +52,7 @@
 
 > ./install.sh
 
-# How to uninstall CamSnap 
+# How to uninstall camsnap 
 
 > cd camsnap
 
@@ -60,14 +60,14 @@
 
 > ./uninstall.sh
 
-# How to execute CamSnap
+# How to execute camsnap
 
     INFO: To execute Camera Snapshot you 
     should execute the following command!
 
 > camsnap
 
-# How to update CamSnap
+# How to update camsnap
 
     INFO: If you update CamSnap, all the
     data will be saved. Do not worry!
