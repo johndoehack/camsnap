@@ -2,7 +2,7 @@
 
 # 
 #            --------------------------------------------------
-#                        Camera Snapshot (CamSnap)                
+#                              Camera Snapshot                
 #            --------------------------------------------------
 #          Copyright (C) <2019>  <Entynetproject (Ivan Nikolsky)>
 #
