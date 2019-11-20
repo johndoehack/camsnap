@@ -2,7 +2,7 @@
 
 # 
 #            --------------------------------------------------
-#                          Social Fisher (camsnap)                
+#                              Camera Snapshot               
 #            --------------------------------------------------
 #          Copyright (C) <2019>  <Entynetproject (Ivan Nikolsky)>
 #
