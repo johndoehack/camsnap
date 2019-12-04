@@ -28,78 +28,23 @@
 #    Email     : entynetproject@gmail.com
 #
 
-if [[ "$1" = "-u" || "$1" = "--update" ]]
-then
-if [[ -d /data/data/com.termux ]]
-then
-if [[ -f /data/data/com.termux/files/usr/bin/camsnap ]]
-then
-UPD="true"
-else
-UPD="false"
-fi
-else
-if [[ -f /usr/local/bin/camsnap ]]
-then
-UPD="true"
-else
-UPD="false"
-fi
-fi
-{
-ASESR="$( curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//' )"
-} &> /dev/null
-if [[ "$ASESR" = "" ]]
-then 
-sleep 1
-echo ""$RS"["$CE"-"$RSA"] Download failed!"$CE""
-sleep 1
-exit
-fi
-if [[ $EUID -ne 0 ]]
-then
-sleep 1
-echo ""$RS"["$CE"-"$RSA"] Permission denied!"$CE""
-sleep 1
-exit
-fi
-sleep 1
-echo ""$GNS"["$CE"+"$GSA"] Installing update..."$CE""
-{
-mkdir ~/.camsnap
-cp -r ~/camsnap/images ~/.camsnap
-rm -rf ~/camsnap
-rm /bin/camsnap
-rm /usr/local/bin/camsnap
-rm /data/data/com.termux/files/usr/bin/camsnap
-cd ~
-git clone https://github.com/entynetproject/camsnap.git
-if [[ "$UPD" != "true" ]]
-then
-sleep 0
-else
-cd camsnap
-chmod +x install.sh
-./install.sh
-fi
-cp -r ~/.camsnap/images ~/camsnap
-rm -rf ~/.camsnap
-} &> /dev/null
-echo ""$GNS"["$CE"+"$GSA"] Successfully updated!"$CE""
-sleep 1
-exit
-fi
-
-clear
-trap 'printf "\n";stop' 2
-
 printf '\033]2;Camera Snapshot\a'
 
-if [[ -d ~/camsnap/images ]]
+if [[ "$1" = "-u" || "$1" = "--update" ]]
+then
+chmod +x bin/socfish
+bin/socfish -u
+exit
+fi
+
+trap 'printf "\n";stop' 2
+clear
+
+if [[ -d images ]]
 then
 sleep 0
 else
-mkdir ~/camsnap/images
+mkdir images
 fi
 
 banner() {
