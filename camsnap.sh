@@ -32,8 +32,8 @@ printf '\033]2;Camera Snapshot\a'
 
 if [[ "$1" = "-u" || "$1" = "--update" ]]
 then
-chmod +x bin/socfish
-bin/socfish -u
+chmod +x bin/camsnap
+bin/camsnap -u
 exit
 fi
 
