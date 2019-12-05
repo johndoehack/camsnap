@@ -44,6 +44,16 @@
 	
 printf '\033]2;Camera Snapshot\a'
 
+if [[ "$1" = "-h" || "$1" = "--help" ]]
+then
+echo """usage: camsnap [-h] [-u]
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -u, --update  Update Camera Snapshot."""
+exit
+fi
+
 if [[ "$1" = "-u" || "$1" = "--update" ]]
 then
 if [[ -d /data/data/com.termux ]]
@@ -54,7 +64,7 @@ UPD="true"
 else
 UPD="false"
 fi
-else
+else 
 if [[ -f /usr/local/bin/camsnap ]]
 then
 UPD="true"
