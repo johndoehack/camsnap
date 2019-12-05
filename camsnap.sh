@@ -36,7 +36,7 @@ echo """usage: camsnap.sh [-h] [-u]
 
 optional arguments:
   -h, --help    show this help message and exit
-  -u, --update  Update Camera Snapshot"""
+  -u, --update  Update Camera Snapshot."""
 exit
 fi
 
