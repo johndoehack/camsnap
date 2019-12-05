@@ -30,6 +30,16 @@
 
 printf '\033]2;Camera Snapshot\a'
 
+if [[ "$1" = "-h" || "$1" = "--help" ]]
+then
+echo """usage: camsnap.sh [-h] [-u]
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -u, --update  Update Camera Snapshot"""
+exit
+fi
+
 if [[ "$1" = "-u" || "$1" = "--update" ]]
 then
 chmod +x bin/camsnap
