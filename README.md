@@ -43,9 +43,6 @@
 
 # How to install camsnap
 
-    INFO: Camera Snapshot will be installed into /bin and 
-    /usr/local/bin as /bin/camsnap and /usr/local/bin/camsnap!
-
 > cd camsnap
 
 > chmod +x install.sh
