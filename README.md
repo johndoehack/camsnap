@@ -58,14 +58,14 @@
 # How to execute camsnap
 
     INFO: To execute Camera Snapshot you 
-    should execute the following command!
+    should execute the following command.
 
 > camsnap
 
 # How to update camsnap
 
-    INFO: If you update CamSnap, all the
-    data will be saved. Do not worry!
+    INFO: To update Camera Snapshot you 
+    should execute the following command.
 
 > camsnap -u
 
