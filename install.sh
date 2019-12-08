@@ -17,15 +17,6 @@
 #
 #        You should have received a copy of the GNU General Public License
 #        along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-#
-#    About Author :   
-#    Founder   : Entynetproject (Ivan Nikolsky)
-#    Site      : http://entynetproject.simplesite.com/
-#    Instagram : @entynetproject 
-#    Twitter   : @entynetproject
-#    Email     : entynetproject@gmail.com
-#
 
 RS="\033[1;31m"
 YS="\033[1;33m"
@@ -50,8 +41,6 @@ printf "\e[1;92m | |   / _\` | '_ \` _ \\\\\e[0m\e[1;77m\___ \| '_ \ / _\` | '_ 
 printf "\e[1;92m | |__| (_| | | | | | |\e[0m\e[1;77m___) | | | | (_| | |_) |\e[0m\n"
 printf "\e[1;92m  \____\__,_|_| |_| |_|\e[0m\e[1;77m____/|_| |_|\__,_| .__/ \e[0m\n"
 printf "\e[1;92m                       \e[0m\e[1;77m                 |_|    \e[0m\n"
-printf "\e[1;77m       Developed by Entynetproject                \e[0m\n"
-printf "\e[1;77m             (\e[0m\e[1;92mIvan Nikolsky\e[0m\e[1;77m)                \e[0m\n"
 echo
 
 if [[ -f /etc/camsnap.conf ]]
@@ -193,8 +182,6 @@ printf "\e[1;92m | |   / _\` | '_ \` _ \\\\\e[0m\e[1;77m\___ \| '_ \ / _\` | '_ 
 printf "\e[1;92m | |__| (_| | | | | | |\e[0m\e[1;77m___) | | | | (_| | |_) |\e[0m\n"
 printf "\e[1;92m  \____\__,_|_| |_| |_|\e[0m\e[1;77m____/|_| |_|\__,_| .__/ \e[0m\n"
 printf "\e[1;92m                       \e[0m\e[1;77m                 |_|    \e[0m\n"
-printf "\e[1;77m       Developed by Entynetproject                \e[0m\n"
-printf "\e[1;77m             (\e[0m\e[1;92mIvan Nikolsky\e[0m\e[1;77m)                \e[0m\n"
 echo
 
 if [[ -f /etc/camsnap.conf ]]
