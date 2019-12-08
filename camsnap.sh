@@ -44,7 +44,7 @@ printf "\e[1;92m  / ___|__ _ _ __ ___ \e[0m\e[1;77m/ ___| _ __   __ _ _ __  \e[0
 printf "\e[1;92m | |   / _\` | '_ \` _ \\\\\e[0m\e[1;77m\___ \| '_ \ / _\` | '_ \ \e[0m\n"
 printf "\e[1;92m | |__| (_| | | | | | |\e[0m\e[1;77m___) | | | | (_| | |_) |\e[0m\n"
 printf "\e[1;92m  \____\__,_|_| |_| |_|\e[0m\e[1;77m____/|_| |_|\__,_| .__/ \e[0m\n"
-printf "\e[1;92m                       \e[0m\e[1;77m                 |_|    \e[0m"
+printf "\e[1;92m                       \e[0m\e[1;77m                 |_|    \e[0m\n"
 
 }
 
@@ -212,7 +212,6 @@ start1() {
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
-printf "\n"
 printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m Serveo\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m2\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
 default_option_server="1"
