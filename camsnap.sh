@@ -3,7 +3,7 @@
 #            --------------------------------------------------
 #                              Camera Snapshot                
 #            --------------------------------------------------
-#          Copyright (C) <2019>  <Entynetproject (Ivan Nikolsky)>
+#                  Copyright (C) <2019>  <Entynetproject>
 #
 #        This program is free software: you can redistribute it and/or modify
 #        it under the terms of the GNU General Public License as published by
@@ -17,14 +17,6 @@
 #
 #        You should have received a copy of the GNU General Public License
 #        along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-#
-#    About Author :   
-#    Founder   : Entynetproject (Ivan Nikolsky)
-#    Site      : http://entynetproject.simplesite.com/
-#    Instagram : @entynetproject 
-#    Twitter   : @entynetproject
-#    Email     : entynetproject@gmail.com
 
 printf '\033]2;Camera Snapshot\a'
 
