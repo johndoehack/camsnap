@@ -54,19 +54,20 @@
 
 > ./uninstall.sh
 
+# How to update camsnap
+
+> cd camsnap
+
+> chmod +x update.sh
+
+> ./update.sh
+
 # How to execute camsnap
 
     INFO: To execute Camera Snapshot you 
     should execute the following command.
 
 > camsnap
-
-# How to update camsnap
-
-    INFO: To update Camera Snapshot you 
-    should execute the following command.
-
-> camsnap -u
 
 # Camera snapshot disclaimer
 
