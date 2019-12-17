@@ -71,14 +71,26 @@ apt-get -y install unzip
 apt-get -y install wget
 apk add curl
 apk add php
-apk add ssh
+apk add openssh
 apk add unzip
 apk add wget
-pacman -S curl
-pacman -S php
-pacman -S ssh
-pacman -S unzip
-pacman -S wget
+pacman -Sy
+yes | pacman -S curl
+yes | pacman -S php
+yes | pacman -S openssh
+yes | pacman -S unzip
+yes | pacman -S wget
+zypper refresh
+zypper install -y curl
+zypper install -y php
+zypper install -y openssh
+zypper install -y unzip
+zypper install -y wget
+yum -y install curl
+yum -y install php
+yum -y install openssh
+yum -y install unzip
+yum -y install wget
 } &> /dev/null
 
 {
