@@ -66,7 +66,7 @@ sleep 1
 exit
 fi
 sleep 1
-echo -e "\033[1;77m[\033[0m\033[1;93m+\033[0m\033[1;77m] Installing update...\033[0m"
+echo -e "\033[1;77m[\033[0m\033[1;93m*\033[0m\033[1;77m] Installing update...\033[0m"
 {
 mkdir ~/.camsnap
 cp -r ~/camsnap/images ~/.camsnap
@@ -87,6 +87,6 @@ fi
 cp -r ~/.camsnap/images ~/camsnap
 rm -rf ~/.camsnap
 } &> /dev/null
-echo ""$GNS"["$CE"+"$GSA"] Successfully updated!"$CE""
+echo -e "\033[1;92m[\033[0m+\033[1;92m] Successfully updated!"$CE""
 sleep 1
 exit
