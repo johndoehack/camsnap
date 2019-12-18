@@ -53,7 +53,7 @@ printf "\033[1;92m                       \033[0m\033[1;77m                 |_|  
 echo
 
 sleep 1
-echo -e "\033[1;77m[\033[0m\033[1;93m+\033[0m\033[1;77m] Installing dependencies...\033[0m"
+echo -e "\033[1;77m[\033[0m\033[1;93m*\033[0m\033[1;77m] Installing dependencies...\033[0m"
 sleep 1
 
 {
@@ -129,3 +129,7 @@ chmod +x /bin/camsnap
 cp camsnap /data/data/com.termux/files/usr/bin
 chmod +x /data/data/com.termux/files/usr/bin/camsnap
 } &> /dev/null
+
+sleep 1
+echo -e "\033[0;92m[\033[0m+\033[0;92m] Successfully installed!\033[0m"
+sleep 1
