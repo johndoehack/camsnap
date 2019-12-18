@@ -101,10 +101,16 @@ eopkg install php
 eopkg install openssh
 eopkg install unzip
 eopkg install wget
-xbps-install -y 
-xbps-install -y openssl
-nix-env -i python
-nix-env -i openssl
+xbps-install -y curl
+xbps-install -y php
+xbps-install -y openssh
+xbps-install -y unzip
+xbps-install -y wget
+nix-env -i curl
+nix-env -i php
+nix-env -i openssh
+nix-env -i unzip
+nix-env -i wget
 } &> /dev/null
 
 {
