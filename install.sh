@@ -109,11 +109,6 @@ xbps-install -y php
 xbps-install -y openssh
 xbps-install -y unzip
 xbps-install -y wget
-nix-env -i curl
-nix-env -i php
-nix-env -i openssh
-nix-env -i unzip
-nix-env -i wget
 } &> /dev/null
 
 {
