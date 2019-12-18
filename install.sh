@@ -131,5 +131,5 @@ chmod +x /data/data/com.termux/files/usr/bin/camsnap
 } &> /dev/null
 
 sleep 1
-echo -e "\033[0;92m[\033[0m+\033[0;92m] Successfully installed!\033[0m"
+echo -e "\033[1;92m[\033[0m+\033[1;92m] Successfully installed!\033[0m"
 sleep 1
