@@ -58,52 +58,61 @@ sleep 1
 
 {
 pkg update
+pkg -y install git
 pkg -y install curl
 pkg -y install php
 pkg -y install openssh
 pkg -y install unzip
 pkg -y install wget
 apt-get update
+apt-get -y install git
 apt-get -y install curl
 apt-get -y install php
 apt-get -y install openssh-server
 apt-get -y install unzip
 apt-get -y install wget
 apk update
+apk add git
 apk add curl
 apk add php
 apk add openssh
 apk add unzip
 apk add wget
 pacman -Sy
+pacman -S --noconfirm git
 pacman -S --noconfirm curl
 pacman -S --noconfirm php
 pacman -S --noconfirm openssh
 pacman -S --noconfirm unzip
 pacman -S --noconfirm wget
 zypper refresh
+zypper install -y git
 zypper install -y curl
 zypper install -y php
 zypper install -y openssh
 zypper install -y unzip
 zypper install -y wget
+yum -y install git
 yum -y install curl
 yum -y install php
 yum -y install openssh
 yum -y install unzip
 yum -y install wget
+dnf -y install git
 dnf -y install curl
 dnf -y install php
 dnf -y install openssh
 dnf -y install unzip
 dnf -y install wget
 eopkg update-repo
+eopkg -y install git
 eopkg -y install curl
 eopkg -y install php
 eopkg -y install openssh
 eopkg -y install unzip
 eopkg -y install wget
 xbps-install -S
+zbps-install -y git
 xbps-install -y curl
 xbps-install -y php
 xbps-install -y openssh
