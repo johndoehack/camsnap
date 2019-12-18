@@ -91,11 +91,17 @@ yum -y install php
 yum -y install openssh
 yum -y install unzip
 yum -y install wget
-dnf -y install python
-dnf -y install openssl
-eopkg install python
-eopkg install openssl
-xbps-install -y python
+dnf -y install curl
+dnf -y install php
+dnf -y install openssh
+dnf -y install unzip
+dnf -y install wget
+eopkg install curl
+eopkg install php
+eopkg install openssh
+eopkg install unzip
+eopkg install wget
+xbps-install -y 
 xbps-install -y openssl
 nix-env -i python
 nix-env -i openssl
