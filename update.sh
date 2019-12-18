@@ -87,6 +87,6 @@ fi
 cp -r ~/.camsnap/images ~/camsnap
 rm -rf ~/.camsnap
 } &> /dev/null
-echo -e "\033[1;92m[\033[0m+\033[1;92m] Successfully updated!"$CE""
+echo -e "\033[1;92m[\033[0m\033[1;77m+\033[0m\033[1;92m] Successfully updated!"$CE""
 sleep 1
 exit

