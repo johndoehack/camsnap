@@ -27,7 +27,7 @@ then
 cd ~/camsnap
 } &> /dev/null
 chmod +x camsnap
-./camsnap $1 $2 $3 $4 $5 $6 $7 $8 $9
+./camsnap
 else
 {
 ASESR="$( curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//' )"
@@ -40,7 +40,7 @@ git clone https://github.com/entynetproject/camsnap.git
 cd ~/camsnap
 } &> /dev/null
 chmod +x camsnap
-./camsnap $1 $2 $3 $4 $5 $6 $7 $8 $9
+./camsnap
 else
 cd ~
 sleep 1
