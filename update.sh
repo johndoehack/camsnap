@@ -31,6 +31,8 @@
 	RSA="\033[1;31m"
 #white start
         WHS="\033[0;97m"
+	
+printf '\033]2;install.sh\a'	
         
 if [[ -d /data/data/com.termux ]]
 then
