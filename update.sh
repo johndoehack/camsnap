@@ -32,7 +32,7 @@
 #white start
         WHS="\033[0;97m"
 	
-printf '\033]2;install.sh\a'	
+printf '\033]2;update.sh\a'	
         
 if [[ -d /data/data/com.termux ]]
 then
