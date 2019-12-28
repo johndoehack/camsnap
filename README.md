@@ -33,12 +33,18 @@
  </a>
 </p>
 
-# About camera snapshot
+***
+
+# About Camera Snapshot
 
     INFO: Camera Snapshot (CamSnap) is an OSINT analysis and research tool that is 
     used to remotely take camera snapshots in real-time using generated malicious link. 
 
-# How to install camsnap
+***
+
+# Getting started
+
+## CamSnap installation
 
 > cd camsnap
 
@@ -46,7 +52,7 @@
 
 > ./install.sh
 
-# How to uninstall camsnap 
+## CamSnap uninstallation
 
 > cd camsnap
 
@@ -54,28 +60,26 @@
 
 > ./uninstall.sh
 
-# How to update camsnap
+***
 
-> cd camsnap
-
-> chmod +x update.sh
-
-> ./update.sh
-
-# How to execute camsnap
+# Camera Snapshot execution
 
     INFO: To execute Camera Snapshot you 
     should execute the following command.
 
 > camsnap
 
-# Camera snapshot disclaimer
+***
+
+# Camera Snapshot disclaimer
 
     INFO: Usage of the Camera Snapshot for attacking targets without prior mutual consent is illegal. 
     It is the end user's responsibility to obey all applicable local, state, federal, and international laws. 
     Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
-# Camera snapshot license
+***
+
+# Camera Snapshot license
 
         --------------------------------------------------
                           Camera Snapshot        
@@ -94,6 +98,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-        
+
+***
 
 # Thats all!
