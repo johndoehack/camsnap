@@ -37,8 +37,8 @@
 
 # About Camera Snapshot
 
-    INFO: Camera Snapshot (CamSnap) is an OSINT analysis and research tool that is 
-    used to remotely take camera snapshots in real-time using generated malicious link. 
+    Camera Snapshot (CamSnap) is an OSINT analysis and research tool that is used 
+    to remotely take camera snapshots in real-time using generated malicious link. 
 
 ***
 
@@ -64,7 +64,7 @@
 
 # Camera Snapshot execution
 
-    INFO: To execute Camera Snapshot you 
+    To execute Camera Snapshot you 
     should execute the following command.
 
 > camsnap
@@ -73,7 +73,7 @@
 
 # Camera Snapshot disclaimer
 
-    INFO: Usage of the Camera Snapshot for attacking targets without prior mutual consent is illegal. 
+    Usage of the Camera Snapshot for attacking targets without prior mutual consent is illegal. 
     It is the end user's responsibility to obey all applicable local, state, federal, and international laws. 
     Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
